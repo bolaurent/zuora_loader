@@ -13,8 +13,8 @@ from scratch now, I would use the Zuora REST API (it wasn't complete when I star
 Requirements
 ------------
 
-Python 3
-[zeep](https://github.com/mvantellingen/python-zeep)
+* Python 3
+* [zeep](https://github.com/mvantellingen/python-zeep) (A modern/fast python SOAP client based on lxml / requests)
 
 Install
 -------
