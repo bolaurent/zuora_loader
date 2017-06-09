@@ -39,10 +39,8 @@ def main():
 
     if args.sandbox:
         zuora_configfile = os.path.expanduser('~') + '/.zuora-sandbox-config.json'
-        sfdc_configfile = os.path.expanduser('~') + '/.sfdc-staging-config.json'
     else:
         zuora_configfile = os.path.expanduser('~') + '/.zuora-production-config.json'
-        sfdc_configfile = os.path.expanduser('~') + '/.sfdc-config.json'
 
     with open(zuora_configfile, 'r') as f:
         zuora_config = json.load(f)
