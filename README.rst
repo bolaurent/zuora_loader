@@ -23,7 +23,10 @@ Install latest version: **pip install --process-dependency-links shop_provision*
 Usage
 -----
 
-Execute *zuora_loader*.
+```
+zuora_loader-runner.py  --sandbox zuora_loader/sample_data/account.csv account
+zuora_loader-runner.py  --sandbox zuora_loader/sample_data/subscription.csv subscription
+```
 
 
 About

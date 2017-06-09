@@ -38,9 +38,7 @@ setup(
     author_email="bo.laurent@canonical.com",
     url="",
     install_requires=[
-        "zuora_restful_python==0.13-dev0"
     ],
-    dependency_links=['https://github.com/bolaurent/zuora_restful_python/tarball/master#egg=zuora_restful_python-0.13-dev0'],
     license='MIT',
     #list of classifiers: https://pypi.python.org/pypi?%3Aaction=list_classifiers
     classifiers=['Development Status :: 1 - Planning',
