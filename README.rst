@@ -4,6 +4,12 @@ zuora_loader
 A python tool for loading accounts, contacts, subscriptions, and amendments into a Zuora instance, 
 using the same format at the Zuora Connect tool.
 
+Note that this code is extremely rough, and I won't be maintaining it. 
+
+I wrote it to migrate a complex set of data from Salesforce to Zuora. If I were starting
+from scratch now, I would use the Zuora REST API (it wasn't complete when I started this project).
+
+
 Requirements
 ------------
 
