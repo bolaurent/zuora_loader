@@ -18,7 +18,9 @@ Python 3.
 Install
 -------
 
-Install latest version: **pip install --process-dependency-links shop_provision**.
+```
+pip install git+git://github.com/bolaurent/zuora_loader.git
+```
 
 Usage
 -----
