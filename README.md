@@ -59,3 +59,7 @@ The format of the credentials file is like this:
 About
 -----
 
+KUDOS
+========
+
+Many thanks to [Distributing a Python command line application](https://gehrcke.de/2014/02/distributing-a-python-command-line-application/)
