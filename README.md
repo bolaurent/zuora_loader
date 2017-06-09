@@ -56,8 +56,22 @@ The format of the credentials file is like this:
 
 
 
-About
+Command line options
 -----
+```
+usage: zuora_loader-runner.py [-h] [--sandbox] filename object
+
+Load a csv file into Zuora instance
+
+positional arguments:
+  filename    file to load
+  object      zuora object to load
+
+optional arguments:
+  -h, --help  show this help message and exit
+  --sandbox
+
+```
 
 KUDOS
 ========
