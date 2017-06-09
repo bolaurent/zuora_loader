@@ -18,17 +18,17 @@ Python 3.
 Install
 -------
 
-```
+'''
 pip install git+git://github.com/bolaurent/zuora_loader.git
-```
+'''
 
 Usage
 -----
 
-```
+'''
 zuora_loader-runner.py  --sandbox zuora_loader/sample_data/account.csv account
 zuora_loader-runner.py  --sandbox zuora_loader/sample_data/subscription.csv subscription
-```
+'''
 
 
 About
