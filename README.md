@@ -25,10 +25,34 @@ pip install git+git://github.com/bolaurent/zuora_loader.git
 Usage
 -----
 
+Execute the load as follows:
+
 ```
 zuora_loader-runner.py  --sandbox zuora_loader/sample_data/account.csv account
 zuora_loader-runner.py  --sandbox zuora_loader/sample_data/subscription.csv subscription
 ```
+
+
+Credentials are stored in one of the following files in your home directory:
+
+```
+~/.zuora-sandbox-config.json
+~/.zuora-production-config.json
+```
+
+The format of the credentials file is like this:
+
+```
+    {
+      "user":     "me@mycompany.com",
+      "password": "ksjfklsjklsdl",
+      "wsdl":     "/Users/bo/.zuora-production/zuora.a.84.0.wsdl",
+      "//endpoint": "https://apisandbox.zuora.com/apps/services/a/78.0",
+      "verboseLog": false
+    }
+```
+
+
 
 
 About
